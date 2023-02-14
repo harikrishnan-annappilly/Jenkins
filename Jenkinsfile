@@ -11,5 +11,10 @@ pipeline{
                 echo 'Stage 2 from github'
             }
         }
+        stage('Git poll stage'){
+            steps{
+                echo 'Git poll stage from github'
+            }
+        }
     }
 }
